@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Team member images (replace with your actual image paths)
     const teamImages = {
-        mide: 'https://via.placeholder.com/150/000000/FFFFFF/?text=Midé',
-        lawrence: 'https://via.placeholder.com/150/000000/FFFFFF/?text=Lawrence',
-        emmanuel: 'https://via.placeholder.com/150/000000/FFFFFF/?text=Emmanuel'
-    };
+       mide: 'images/mide.jpg',       // Your 400x400 image
+       lawrence: 'images/lawrence.jpg',
+       emmanuel: 'images/emmanuel.jpg'
+   };
     
     // Load team member images
     for (const [id, imgUrl] of Object.entries(teamImages)) {
